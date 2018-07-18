@@ -15,6 +15,5 @@ def find_item (array, item)
 end
 
 def get_first_key(hash)
-	array = hash.keys
-	return array[0]
+	return hash.keys[0]
 end
